@@ -228,6 +228,8 @@ local peanut = 0
 while wait(.00) do
        vim:SendKeyEvent(true, "Q", false, game)
        wait(.0)
+       vim:SendKeyEvent(true, "C", false, game)
+       wait(.0)
        vim:SendKeyEvent(true, "E", false, game)
        wait(.0)
        vim:SendKeyEvent(true, "R", false, game)
@@ -281,6 +283,8 @@ local vim = game:service'VirtualInputManager'
 local peanut = 0
 while wait(.00) do
        vim:SendKeyEvent(true, "E", false, game)
+       wait(.0)
+       vim:SendKeyEvent(true, "C", false, game)
        wait(.0)
        vim:SendKeyEvent(true, "R", false, game)
        wait(.0)
