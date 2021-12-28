@@ -50,7 +50,7 @@ if peanut == 1 then
 break
 end
 end       
-
+wait(1)
 -- # 2
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(104, 383, -290)
