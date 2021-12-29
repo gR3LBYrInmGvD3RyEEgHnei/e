@@ -211,6 +211,8 @@ while wait(2) do
        wait(.9)
        vim:SendKeyEvent(true, "R", false, game)
        wait(.9)
+       vim:SendKeyEvent(true, "Z", false, game)
+       wait(.9)
        vim:SendKeyEvent(true, "N", false, game)
        wait(.9)
 peanut = peanut + 1
