@@ -129,6 +129,8 @@ while wait(1) do
        wait(.9)
        vim:SendKeyEvent(true, "Q", false, game)
        wait(.9)
+       vim:SendKeyEvent(true, "Z", false, game)
+       wait(.9)
        vim:SendKeyEvent(true, "Y", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "U", false, game)
