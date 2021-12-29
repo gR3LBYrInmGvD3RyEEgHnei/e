@@ -147,7 +147,7 @@ end
 
 -- # 4
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-187, 444, 211)
+local location = CFrame.new(-187, 440, 211)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 humanoid:ChangeState(Enum.HumanoidStateType.Flying)
 pl.CFrame = location
