@@ -110,7 +110,7 @@ humanoid:ChangeState(Enum.HumanoidStateType.Flying)
 pl.CFrame = location
 wait(1)
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-172, 383, -251)
+local location = CFrame.new(-172, 386, -251)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 humanoid:ChangeState(Enum.HumanoidStateType.Flying)
 pl.CFrame = location
@@ -191,6 +191,10 @@ wait(1)
 local vim = game:service'VirtualInputManager'
 local peanut = 0
 while wait(2) do
+       vim:SendKeyEvent(true, "B", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "E", false, game)
+       wait(.9)
        vim:SendKeyEvent(true, "Q", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "Y", false, game)
