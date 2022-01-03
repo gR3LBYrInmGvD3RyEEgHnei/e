@@ -23,7 +23,7 @@ humanoid:ChangeState(Enum.HumanoidStateType.Flying)
 pl.CFrame = location
 local vim = game:service'VirtualInputManager'
 local peanut = 0
-while wait(1) do
+while wait(3) do
        vim:SendKeyEvent(true, "R", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "N", false, game)
