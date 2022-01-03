@@ -6,7 +6,8 @@
 -- #                         #
 -- ###########################
 -- # FOR NOVA USERS
-
+-- # ADMIN PANEL: (Fly, qefly false and noclip)
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 -- # Portal
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(2863, 3, 1037)
@@ -14,7 +15,6 @@ local humanoid = game.Players.LocalPlayer.Character.Humanoid
 humanoid:ChangeState(Enum.HumanoidStateType.Flying)
 pl.CFrame = location
 wait(9)
-
 -- # 1
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(383, 370, -225)
@@ -23,20 +23,24 @@ humanoid:ChangeState(Enum.HumanoidStateType.Flying)
 pl.CFrame = location
 local vim = game:service'VirtualInputManager'
 local peanut = 0
-while wait(3) do
-       vim:SendKeyEvent(true, "H", false, game)
+while wait(1) do
+       vim:SendKeyEvent(true, "B", false, game)
        wait(.9)
-       vim:SendKeyEvent(true, "T", false, game)
-       wait(.9)
-       vim:SendKeyEvent(true, "M", false, game)
-       wait(.9)
-       vim:SendKeyEvent(true, "R", false, game)
-       wait(.9)
-       vim:SendKeyEvent(true, "N", false, game)
+       vim:SendKeyEvent(true, "U", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "G", false, game)
        wait(.9)
+       vim:SendKeyEvent(true, "Z", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "H", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "Y", false, game)
+       wait(.9)
        vim:SendKeyEvent(true, "J", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "K", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "N", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "L", false, game)
        wait(.9)
@@ -66,29 +70,34 @@ humanoid:ChangeState(Enum.HumanoidStateType.Flying)
 pl.CFrame = location
 local vim = game:service'VirtualInputManager'
 local peanut = 0
-while wait(2) do
-       vim:SendKeyEvent(true, "B", false, game)
+while wait(3) do
+       vim:SendKeyEvent(true, "Q", false, game)
        wait(.9)
-       vim:SendKeyEvent(true, "R", false, game)
+       vim:SendKeyEvent(true, "Y", false, game)
        wait(.9)
+       vim:SendKeyEvent(true, "U", false, game)
+       wait(.0)
+       vim:SendKeyEvent(true, "G", false, game)
+       wait(.0)
+       vim:SendKeyEvent(true, "H", false, game)
+       wait(.0)
        vim:SendKeyEvent(true, "Z", false, game)
-       wait(.9)
-       vim:SendKeyEvent(true, "T", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "K", false, game)
        wait(.9)
-       vim:SendKeyEvent(true, "N", false, game)
+       vim:SendKeyEvent(true, "L", false, game)
        wait(.9)
-       vim:SendKeyEvent(true, "H", false, game)
-       wait(2)
        vim:SendKeyEvent(true, "M", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "R", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "N", false, game)
        wait(.9)
 peanut = peanut + 1
 if peanut == 1 then
 break
 end
 end       
-
 -- # 3
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-164, 383, -268)
@@ -114,13 +123,21 @@ while wait(1) do
        wait(.9)
        vim:SendKeyEvent(true, "B", false, game)
        wait(.9)
+       vim:SendKeyEvent(true, "Q", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "Z", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "Y", false, game)
+       wait(.9)
        vim:SendKeyEvent(true, "U", false, game)
        wait(.9)
-       vim:SendKeyEvent(true, "R", false, game)
+       vim:SendKeyEvent(true, "K", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "L", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "M", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "R", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "N", false, game)
        wait(.9)
@@ -131,7 +148,6 @@ if peanut == 1 then
 break
 end
 end       
-
 -- # 4
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-187, 440, 211)
@@ -141,6 +157,8 @@ pl.CFrame = location
 local vim = game:service'VirtualInputManager'
 local peanut = 0
 while wait(2) do
+       vim:SendKeyEvent(true, "Q", false, game)
+       wait(.9)
        vim:SendKeyEvent(true, "Y", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "U", false, game)
@@ -157,19 +175,16 @@ while wait(2) do
        wait(.9)
        vim:SendKeyEvent(true, "R", false, game)
        wait(.9)
-       vim:SendKeyEvent(true, "K", false, game)
+       vim:SendKeyEvent(true, "N", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "Z", false, game)
-       wait(.9)
-       vim:SendKeyEvent(true, "N", false, game)
        wait(.9)
 peanut = peanut + 1
 if peanut == 1 then
 break
 end
 end       
-
--- 5
+-- # 5
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-264, 470, 523)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
@@ -185,7 +200,9 @@ while wait(2) do
        wait(.9)
        vim:SendKeyEvent(true, "E", false, game)
        wait(.9)
-       vim:SendKeyEvent(true, "R", false, game)
+       vim:SendKeyEvent(true, "Q", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "Y", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "Z", false, game)
        wait(.9)
@@ -201,7 +218,7 @@ while wait(2) do
        wait(.9)
        vim:SendKeyEvent(true, "M", false, game)
        wait(.9)
-       vim:SendKeyEvent(true, "Y", false, game)
+       vim:SendKeyEvent(true, "R", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "Z", false, game)
        wait(.9)
@@ -212,7 +229,6 @@ if peanut == 1 then
 break
 end
 end       
-
 -- # Boss
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-255, 441, 960)
@@ -273,7 +289,6 @@ while wait(.00) do
        wait(.0)
 peanut = peanut + 1
 end       
-
 wait(.0)
 local vim = game:service'VirtualInputManager'
 local peanut = 0
