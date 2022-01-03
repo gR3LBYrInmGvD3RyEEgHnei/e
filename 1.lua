@@ -24,6 +24,12 @@ pl.CFrame = location
 local vim = game:service'VirtualInputManager'
 local peanut = 0
 while wait(3) do
+       vim:SendKeyEvent(true, "H", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "T", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "M", false, game)
+       wait(.9)
        vim:SendKeyEvent(true, "R", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "N", false, game)
@@ -31,8 +37,6 @@ while wait(3) do
        vim:SendKeyEvent(true, "G", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "J", false, game)
-       wait(.9)
-       vim:SendKeyEvent(true, "H", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "L", false, game)
        wait(.9)
