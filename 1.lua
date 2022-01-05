@@ -202,9 +202,17 @@ wait(1)
 local vim = game:service'VirtualInputManager'
 local peanut = 0
 while wait(2) do
+       vim:SendKeyEvent(true, "K", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "K", false, game)
+       wait(.9)
        vim:SendKeyEvent(true, "B", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "Z", false, game)
+       wait(3)
+       vim:SendKeyEvent(true, "K", false, game)
+       wait(.9)
+       vim:SendKeyEvent(true, "G", false, game)
        wait(.9)
        vim:SendKeyEvent(true, "E", false, game)
        wait(.9)
